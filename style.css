@@ -1,0 +1,137 @@
+<link rel="stylesheet" href="css/style9.css">
+/* used the google font link to structure the website for css fonts and apply font-family for it in body of it also */
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet"><style>
+
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* url is a function through which you can the extract the image url in the bacground */
+    /* inside url write the path of image  */
+    background: url('image/sk.jpg');
+}
+
+.left {
+    position: absolute;
+    left: 12px;
+    top: 4px;
+    /* border: 2px solid hotpink; */
+    display: inline-block;
+}
+
+.mid {
+    /* 3 condition to bring it in middle 1. display block 2.margin make auto 3.width set as required here we set as 33% */
+    display: block;
+    margin: 29px auto;
+    /* border: 2px solid darkturquoise; */
+    width: 36%;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 29px;
+    display: inline-block;
+    /* border: 2px solid magenta; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.left div {
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 12px;
+}
+
+.navbar li a:hover {
+    background-color: hotpink;
+    text-decoration: underline;
+    color: yellow;
+}
+
+.navbar li a.active {
+    color: yellow;
+    text-decoration: underline;
+    padding: 34px 23px;
+}
+
+.left img {
+    width: 176px;
+    /* note there is a function in css called invert which is like filter:invert(100%) if your logo image is black so it makes it white on screen */
+}
+
+.left:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    border: 2px solid darkblue;
+    border-color: white;
+    border-radius: 23px;
+    padding: 4px 14px;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.active a {
+    padding: 12px;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.container {
+    border: 2px solid red;
+    margin: 105px 44px;
+    padding: 36px 112px;
+    width: 20%;
+    border-radius: 28px;
+    border-color: white;
+    font-size: 9px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 333px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 12px;
+    border-radius: 13px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 111%;
+    /* margin auto will make submit button here in the center */
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+</style>

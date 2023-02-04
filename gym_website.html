@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham's Gym Website</title>
+</head>
+<body>
+    <!-- inside one header , i will create my 3 div left, right and center for different purpose -->
+    <header class="header">
+        <!-- We are doing it for the logo of the website. Creating a class left and img src givent to it. -->
+        <div class="left">
+            <img src="image\bg.jpg" alt="">
+            <!-- This div will give the namespace below the logo on the leftside of the website -->
+            <div>Shubham Fitness Center</div>
+        </div>
+        <!-- left box for logo -->
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <!-- class="active" means if my home is there it should look separately and i can make changes specific to home like grey coloretc -->
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <!-- mid box for navbar -->
+
+        </div>
+        <div class="right">
+            <!-- Created button using button.btn*2 and took two buttons formation this way. -->
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+            <!-- right box for buttons/search -->
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Best Gym of Delhi Now</h1>
+        <!-- inside the form , we created a form-group class in div and respectively used placeholder to give the desired columns in the form specified here , the details of the form are designed accordingly here -->
+        <form action="noaction.php">
+            <div class="form-group">
+                <!-- input:text and add placeholder explicity replacing id from this format-->
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <!-- input:text and add placeholder explicity replacing id from this format-->
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <!-- input:text and add placeholder explicity replacing id from this format -->
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <!--input:text and add placeholder explicity replacing id from this format -->
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <!--input:text and add placeholder explicity replacing id from this format -->
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <!--input:text and add placeholder explicity replacing id from this format -->
+                <input type="text" name="" placeholder="Enter your EmailId">
+            </div>
+            <!-- button.btn -->
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
